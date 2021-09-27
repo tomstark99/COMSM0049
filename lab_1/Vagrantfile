@@ -1,0 +1,12 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.define "box" do |box|
+		box.vm.box = "hashicorp/precise32"
+		box.vm.hostname = "lab1-box"
+		box.vm.provider "virtualbox" do |virtualbox|
+        virtualbox.name="lab1-box"
+    end
+ end
+end
