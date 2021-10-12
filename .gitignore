@@ -51,5 +51,6 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# Vagrant log files
+# Vagrant log and cache files
+.vagrant/
 *.log

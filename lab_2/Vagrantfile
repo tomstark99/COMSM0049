@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |config|
   config.vm.define "box" do |box|
-		box.vm.box = "generic/fedora32"
+		box.vm.box = "hashicorp/precise32"
 		box.vm.hostname = "lab2-box"
 		box.vm.provider "virtualbox" do |virtualbox|
         virtualbox.name="lab2-box"
