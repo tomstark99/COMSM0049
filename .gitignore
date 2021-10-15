@@ -54,3 +54,7 @@ dkms.conf
 # Vagrant log and cache files
 .vagrant/
 *.log
+
+# Vim cache and temp files
+*.swo
+*.swp
